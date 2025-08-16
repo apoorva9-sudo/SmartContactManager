@@ -1,4 +1,4 @@
-# SmartContactManager
+
 # Smart Contact Manager
 
 A **Spring Boot** application to manage contacts efficiently, providing REST APIs for CRUD operations. The application integrates with **MySQL** (or **H2** for testing) and uses **Hibernate ORM** for data persistence.
@@ -30,16 +30,19 @@ A **Spring Boot** application to manage contacts efficiently, providing REST API
 ## Project Structure
 
 smart-contact-manager/
-├── src/main/java
-│ └── com.project.smartcontact
-│ ├── controller # REST Controllers
-│ ├── model # JPA Entities
-│ ├── repository # Spring Data JPA Repositories
-│ └── service # Business Logic
-├── src/main/resources
-│ └── application.properties
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/project/smartcontact/
+│       │       ├── controller/    # REST Controllers
+│       │       ├── model/         # JPA Entities
+│       │       ├── repository/    # Spring Data JPA Repositories
+│       │       └── service/       # Business Logic
+│       └── resources/
+│           └── application.properties
 ├── pom.xml
 └── README.md
+
 
 
 ---
