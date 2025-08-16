@@ -24,26 +24,6 @@ A **Spring Boot** application to manage contacts efficiently, providing REST API
 - **IDE:** IntelliJ IDEA  
 - **Version Control:** Git, GitHub  
 
----
-
-
-## Project Structure
-
-smart-contact-manager/
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── com/project/smartcontact/
-│       │       ├── controller/    # REST Controllers
-│       │       ├── model/         # JPA Entities
-│       │       ├── repository/    # Spring Data JPA Repositories
-│       │       └── service/       # Business Logic
-│       └── resources/
-│           └── application.properties
-├── pom.xml
-└── README.md
-
-
 
 ---
 
