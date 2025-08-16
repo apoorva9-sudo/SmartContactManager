@@ -1,7 +1,7 @@
 
 # Smart Contact Manager
 
-A **Spring Boot** application to manage contacts efficiently, providing REST APIs for CRUD operations. The application integrates with **MySQL** (or **H2** for testing) and uses **Hibernate ORM** for data persistence.
+A **Spring Boot** application to manage contacts efficiently, providing REST APIs for CRUD operations. The application integrates with **MySQL**  and uses **Hibernate ORM** for data persistence.
 
 ---
 
